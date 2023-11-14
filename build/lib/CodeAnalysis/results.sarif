@@ -1,0 +1,1668 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cv::MatStep::buf。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 1239,
+                  "startColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::MatStep::{ctor}",
+                  "decoratedName": "??0MatStep@cv@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::MatStep::buf"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cv::MatStep::buf。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 1245,
+                  "startColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::MatStep::{ctor}",
+                  "decoratedName": "??0MatStep@cv@@QEAA@_K@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::MatStep::buf"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 1874,
+                  "startColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::SparseMat::elemSize",
+                  "decoratedName": "?elemSize@SparseMat@cv@@QEBA_KXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/core/mat.inl.hpp"
+                },
+                "region": {
+                  "startLine": 1874,
+                  "startColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::SparseMat::elemSize",
+                  "decoratedName": "?elemSize@SparseMat@cv@@QEBA_KXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/core/utility.hpp"
+                },
+                "region": {
+                  "startLine": 568,
+                  "startColumn": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::getElemSize",
+                  "decoratedName": "?getElemSize@cv@@YA_KH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/core/utility.hpp"
+                },
+                "region": {
+                  "startLine": 568,
+                  "startColumn": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::getElemSize",
+                  "decoratedName": "?getElemSize@cv@@YA_KH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "此类函数不应 throw。声明它为 \"noexcept\" (f.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/core/async.hpp"
+                },
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::AsyncArray::{ctor}",
+                  "decoratedName": "??0AsyncArray@cv@@QEAA@$$QEAV01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cvflann::UntypedMatrix::type。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/flann/matrix.h"
+                },
+                "region": {
+                  "startLine": 95,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cvflann::UntypedMatrix::{ctor}",
+                  "decoratedName": "??0UntypedMatrix@cvflann@@QEAA@PEAXJJ@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cvflann::UntypedMatrix::type"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/flann/dist.h"
+                },
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 76,
+                  "endLine": 85,
+                  "endColumn": 80
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cvflann::round",
+                  "decoratedName": "??$round@_J@cvflann@@YA_JM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 363,
+                  "startColumn": 30,
+                  "endLine": 363,
+                  "endColumn": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cvflann::lsh::LshTable<unsigned char>::{ctor}",
+                  "decoratedName": "??0?$LshTable@E@lsh@cvflann@@QEAA@II@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 364,
+                  "startColumn": 28,
+                  "endLine": 364,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cvflann::lsh::LshTable<unsigned char>::{ctor}",
+                  "decoratedName": "??0?$LshTable@E@lsh@cvflann@@QEAA@II@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cvflann::lsh::LshStats::n_buckets_。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cvflann::lsh::LshStats::{ctor}",
+                  "decoratedName": "??0LshStats@lsh@cvflann@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cvflann::lsh::LshStats::n_buckets_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cvflann::lsh::LshStats::bucket_size_min_。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cvflann::lsh::LshStats::{ctor}",
+                  "decoratedName": "??0LshStats@lsh@cvflann@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cvflann::lsh::LshStats::bucket_size_min_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cvflann::lsh::LshStats::bucket_size_std_dev。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cvflann::lsh::LshStats::{ctor}",
+                  "decoratedName": "??0LshStats@lsh@cvflann@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cvflann::lsh::LshStats::bucket_size_std_dev"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cvflann::lsh::LshStats::bucket_size_mean_。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cvflann::lsh::LshStats::{ctor}",
+                  "decoratedName": "??0LshStats@lsh@cvflann@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cvflann::lsh::LshStats::bucket_size_mean_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cvflann::lsh::LshStats::bucket_size_median_。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cvflann::lsh::LshStats::{ctor}",
+                  "decoratedName": "??0LshStats@lsh@cvflann@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cvflann::lsh::LshStats::bucket_size_median_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cvflann::lsh::LshStats::bucket_size_max_。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cvflann::lsh::LshStats::{ctor}",
+                  "decoratedName": "??0LshStats@lsh@cvflann@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cvflann::lsh::LshStats::bucket_size_max_"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/imgproc.hpp"
+                },
+                "region": {
+                  "startLine": 4992,
+                  "startColumn": 16,
+                  "endLine": 4992,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::LineIterator::++",
+                  "decoratedName": "??ELineIterator@cv@@QEAAAEAV01@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6269",
+          "message": {
+            "text": "操作顺序可能不正确。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/flann/any.h"
+                },
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 10,
+                  "endLine": 97,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cvflann::anyimpl::big_any_policy<enum cvflann::flann_algorithm_t>::move",
+                  "decoratedName": "?move@?$big_any_policy@W4flann_algorithm_t@cvflann@@@anyimpl@cvflann@@UEAAXPEBQEAXPEAPEAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6269",
+          "message": {
+            "text": "操作顺序可能不正确。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/flann/any.h"
+                },
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 10,
+                  "endLine": 97,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cvflann::anyimpl::big_any_policy<enum cvflann::flann_centers_init_t>::move",
+                  "decoratedName": "?move@?$big_any_policy@W4flann_centers_init_t@cvflann@@@anyimpl@cvflann@@UEAAXPEBQEAXPEAPEAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cv::AutoBuffer<__int64,1>::buf。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/core/utility.hpp"
+                },
+                "region": {
+                  "startLine": 971,
+                  "startColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::AutoBuffer<__int64,1>::{ctor}",
+                  "decoratedName": "??0?$AutoBuffer@_J$00@cv@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::AutoBuffer<__int64,1>::buf"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 cv::AutoBuffer<double,1>::buf。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/core/utility.hpp"
+                },
+                "region": {
+                  "startLine": 971,
+                  "startColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::AutoBuffer<double,1>::{ctor}",
+                  "decoratedName": "??0?$AutoBuffer@N$00@cv@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cv::AutoBuffer<double,1>::buf"
+          }
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "定义错误的 for-loop。未执行循环正文。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 578,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<float,3,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@M$02$00@cv@@QEAA@MMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "索引“3”超出了“0”至“2”的有效范围(对于可能在堆栈中分配的缓冲区“this->val”)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 578,
+                  "startColumn": 39,
+                  "endLine": 578,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<float,3,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@M$02$00@cv@@QEAA@MMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "定义错误的 for-loop。未执行循环正文。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 578,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<double,3,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@N$02$00@cv@@QEAA@NNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "索引“3”超出了“0”至“2”的有效范围(对于可能在堆栈中分配的缓冲区“this->val”)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 578,
+                  "startColumn": 39,
+                  "endLine": 578,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<double,3,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@N$02$00@cv@@QEAA@NNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "定义错误的 for-loop。未执行循环正文。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 570,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<float,2,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@M$01$00@cv@@QEAA@MM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "索引“2”超出了“0”至“1”的有效范围(对于可能在堆栈中分配的缓冲区“this->val”)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 570,
+                  "startColumn": 39,
+                  "endLine": 570,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<float,2,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@M$01$00@cv@@QEAA@MM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "定义错误的 for-loop。未执行循环正文。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 570,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<double,2,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@N$01$00@cv@@QEAA@NN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "索引“2”超出了“0”至“1”的有效范围(对于可能在堆栈中分配的缓冲区“this->val”)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 570,
+                  "startColumn": 39,
+                  "endLine": 570,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<double,2,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@N$01$00@cv@@QEAA@NN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "定义错误的 for-loop。未执行循环正文。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 586,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<float,4,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@M$03$00@cv@@QEAA@MMMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "索引“4”超出了“0”至“3”的有效范围(对于可能在堆栈中分配的缓冲区“this->val”)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 586,
+                  "startColumn": 39,
+                  "endLine": 586,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<float,4,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@M$03$00@cv@@QEAA@MMMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6294",
+          "message": {
+            "text": "定义错误的 for-loop。未执行循环正文。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 586,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<double,4,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@N$03$00@cv@@QEAA@NNNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6201",
+          "message": {
+            "text": "索引“4”超出了“0”至“3”的有效范围(对于可能在堆栈中分配的缓冲区“this->val”)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/core/matx.hpp"
+                },
+                "region": {
+                  "startLine": 586,
+                  "startColumn": 39,
+                  "endLine": 586,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cv::Matx<double,4,1>::{ctor}",
+                  "decoratedName": "??0?$Matx@N$03$00@cv@@QEAA@NNNN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32825.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/core/mat.inl.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "281b271d3b8b5ceee66e2b9d6a6853098ad188003c0913b6cabe9afe858d6f74"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/core/utility.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "07e6a2c4908d1b210239e98778d5a4d42820a71c1686189fbce1be74ae2ffa02"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/core/async.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "06b3e977168204f5c329ae60c9c4d4af1e7fe82ed7da130a5fcf7bbc2f4ee427"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/flann/matrix.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "035390e2293f928d86bc2c9f1095689e9d8d0464f27e989ffd85264b5d852187"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/flann/dist.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "99d183bcd295074d90b0050a999a8a85d99d4ea72e94bd29dfbf01aaebc66e83"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/flann/lsh_table.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "3b63af8d8c302328bc4b268fdc0d5bf65b8c7bf38389951b36b369b3fde00205"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/imgproc.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "b9f5696bd71caff0f3bf1d1ce56dcd82512782d87546c9a91cd01acb4d16513f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/flann/any.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "f27c64e6aaf543309c0dd57d130647db0d97926f2dad3545a76b58707c3b5234"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///E:/Program2/clibTool/build/bin/include/opencv2/core/matx.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e7937834797d20235adc027fa58107a4cb20bc241186d0f0237a7cf5203b3829"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/src/lib3/lib3.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "4e5763739b8a8444bae66d36554642eeb59d783ab190dbcaf3b9be90a3428ff3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/include/clibtool.h"
+          },
+          "hashes": {
+            "sha-256": "d0a9838fa89768838c6e652e2d4931e1574ec63c234ce67fc3d6eedcc7f8d36a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/include/includex.h"
+          },
+          "hashes": {
+            "sha-256": "082102a1196f74312565ecd68e703fe7e0d472849ea2e84a16bd4e8be6c7f6ac"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/opencv.hpp"
+          },
+          "hashes": {
+            "sha-256": "37df4ccc15f8a6ed06e2099910c63e486841ddbd5bc2d303405bc34f8fd44b66"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/opencv_modules.hpp"
+          },
+          "hashes": {
+            "sha-256": "f20188008b41e1a8ab96b339d57bbed253f94de2d9db66d13ea6ad7fa32a3b4e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/core.hpp"
+          },
+          "hashes": {
+            "sha-256": "96419a29cd1888cd2bcf502dd290ae4cf48a765a9fed5d32dddf71853205cadd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/core/cvdef.h"
+          },
+          "hashes": {
+            "sha-256": "8f2e36e0be01617d3f48d57631d9da6bda159d3b4b7cbe6d4124150982c188a4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/core/version.hpp"
+          },
+          "hashes": {
+            "sha-256": "5da4a3bb3da9ee48cf5787973d0f36765d1066cbfb9d911d87310a7bc94f637b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/core/hal/interface.h"
+          },
+          "hashes": {
+            "sha-256": "bd11814cfd2c331eaa93b42d80a0911a4916f6afa99907f332fe8f641098eb43"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/core/cv_cpu_dispatch.h"
+          },
+          "hashes": {
+            "sha-256": "647f115d595ea57c39b688c4a3379f81283f5fe61d5abc970030a2b18bd51e13"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/core/base.hpp"
+          },
+          "hashes": {
+            "sha-256": "31560c66dfdc85c81438a226d3d8265e8501dc207b4a259d12bf5863e82b9bf1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/core/cvstd.hpp"
+          },
+          "hashes": {
+            "sha-256": "3021d6a142e970f139567e9fa3621d44919fd3f300b677dd58399e84fc266fee"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/core/cvstd_wrapper.hpp"
+          },
+          "hashes": {
+            "sha-256": "babed4fc9c3d804502aa053c5add427600600f080984985812d8cce716b35ffa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/core/neon_utils.hpp"
+          },
+          "hashes": {
+            "sha-256": "ac4f537960e50684671ca6a4b95c1eb6db5ba05e8d9f42f66b930ac8702ae7f9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/core/vsx_utils.hpp"
+          },
+          "hashes": {
+            "sha-256": "277f51881e8aa3a3d178504522f7cb33222949de7d4a27ffcfbb4f701b8f27dd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/core/check.hpp"
+          },
+          "hashes": {
+            "sha-256": "a18a9ac24e21f5c27d47c52a89ea407f0de90d630239a6cf54e14061abb42d6b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/core/traits.hpp"
+          },
+          "hashes": {
+            "sha-256": "d42b16b07b48710d90aefd4a8dc1caa3e889bad5695b820a1ae09f68fb32426e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/core/saturate.hpp"
+          },
+          "hashes": {
+            "sha-256": "4ad0e5143af2998fd8f77e058918288ecde5466e26840d0ad7047ba12afc29b3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/core/fast_math.hpp"
+          },
+          "hashes": {
+            "sha-256": "539798e0137675e61f5773bfd99e0e506d3d8b38a59435bd663a989cd0de4e18"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/core/types.hpp"
+          },
+          "hashes": {
+            "sha-256": "270edcf75a573d98876d6b76d7265269f20789b247a5899d543d9062b46f33da"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/core/mat.hpp"
+          },
+          "hashes": {
+            "sha-256": "3dfbb7141c796631e36fb8b6f6c12e62161fbe39f6ea7f12a51c17172d7cdd75"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/core/bufferpool.hpp"
+          },
+          "hashes": {
+            "sha-256": "fcb61a830d257ca50c45822d9918e5fb8719e4f5294ab5791ed8f9ebfa79e723"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/core/persistence.hpp"
+          },
+          "hashes": {
+            "sha-256": "6e67061742fa8f46abc2cff22f42b2be3325b22ad51c10beb6007dc6244da53a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/core/operations.hpp"
+          },
+          "hashes": {
+            "sha-256": "0f04addaf6a9bc14a13d1e842a3b949c3b9a1e7da0468878d388a072993d418f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/core/cvstd.inl.hpp"
+          },
+          "hashes": {
+            "sha-256": "33223f6f38d88607f3da7f02683ff91aa07279240d34084e1a0fe7b19ab5ca28"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/core/optim.hpp"
+          },
+          "hashes": {
+            "sha-256": "acfc26fa3409d2c7dc897fc816a6eab67554414a514a1a062de68a68cb351e80"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/core/ovx.hpp"
+          },
+          "hashes": {
+            "sha-256": "e4b13bc11c14d59f640ac59963bd02670ca352d533160d539b6e790052051530"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/features2d.hpp"
+          },
+          "hashes": {
+            "sha-256": "3a81da5ae29a96a872a38a0078685226eb59978f4c8204234fd1c013b0fb1d53"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/flann/miniflann.hpp"
+          },
+          "hashes": {
+            "sha-256": "03781603df865272cb64fbc9d451e5e923f6662ba6638a975077f0b032905bb0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/flann/defines.h"
+          },
+          "hashes": {
+            "sha-256": "31953087864c437d95320bf26efe97389e7fd62ee270774d677703b8cbb9795a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/flann/config.h"
+          },
+          "hashes": {
+            "sha-256": "49ed7d14da392b58d47d4a415acef4402205eb18303b2f3170d87004951720d2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/dnn.hpp"
+          },
+          "hashes": {
+            "sha-256": "f2012cb1f4980d641f9dcacba7694c5b129af5589391154e2b2f00477ac31309"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/dnn/dnn.hpp"
+          },
+          "hashes": {
+            "sha-256": "baac55fe7a78fce82e1866d5839e9f75f192e15d00b2876e4e36f8e5da7ed342"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/dnn/version.hpp"
+          },
+          "hashes": {
+            "sha-256": "b6d70c7b0b6d2316e6d1bb0e6a10165b848832921e05d33b7339e3c2e5095868"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/dnn/dict.hpp"
+          },
+          "hashes": {
+            "sha-256": "98faa03a299e950f04d48cec6d7305176fa696014a773b8a0a3a29ab9f9a614e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/dnn/layer.hpp"
+          },
+          "hashes": {
+            "sha-256": "e3db29dbf6e4928c4a0023ca402e9a43921cd899731f4d763841b235ff503c0b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/dnn/dnn.inl.hpp"
+          },
+          "hashes": {
+            "sha-256": "c979c478eb31f7d03898c536f03d89e439c1c242c44f41dcd6fa63d776e52490"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/dnn/utils/inference_engine.hpp"
+          },
+          "hashes": {
+            "sha-256": "0deb20d27d8dbe6ca41cbc6e49fd082d8a7f3108c181be905e480cc5fa257047"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/flann.hpp"
+          },
+          "hashes": {
+            "sha-256": "a92499056728a84fd1db1463945694472191e2dd222e321aeff0271ffad8fe53"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/flann/flann_base.hpp"
+          },
+          "hashes": {
+            "sha-256": "d72289ed979f27e18d7fa1ddc0e045906f357d68019fb7a2aee4ce4e57560662"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/flann/general.h"
+          },
+          "hashes": {
+            "sha-256": "8994476a52ca8259265c31d72c52c0c1774f42f18fb697e826239f4918fcc808"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/flann/params.h"
+          },
+          "hashes": {
+            "sha-256": "e237660201e09061938b95aa239048fa396dce6d7e6697c07909508427227da5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/flann/saving.h"
+          },
+          "hashes": {
+            "sha-256": "cc3f85aa53984cc472ff364fc26b054f222f3824c0d890d85c90cb6ce0ca8778"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/flann/nn_index.h"
+          },
+          "hashes": {
+            "sha-256": "2db931b91d4f31c2dcf09f68b94536ff8f75b9ab8450582f69460ea0f341e314"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/flann/result_set.h"
+          },
+          "hashes": {
+            "sha-256": "10a382bff57fba33a2e03f582bd7b3f30cb740f70447c486d0bccb87819d9add"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/flann/all_indices.h"
+          },
+          "hashes": {
+            "sha-256": "2c131b00b1ed7ee05af4c53dddf1a00892d34f23f87538a6bfa8513527aea320"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/flann/kdtree_index.h"
+          },
+          "hashes": {
+            "sha-256": "d0f8d3b3eef53e2ea963c68523d295027bddc604b8cdae96c7af2d2986a5dbf5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/flann/dynamic_bitset.h"
+          },
+          "hashes": {
+            "sha-256": "18be00e646402e2ede1f6ccdcbb6f4de01b6e9c050815d209f94ed756d8b4e30"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/flann/heap.h"
+          },
+          "hashes": {
+            "sha-256": "adfdda97000266fef461eca40133cf3e639be97c6372d5fd68ddba17934b723b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/flann/allocator.h"
+          },
+          "hashes": {
+            "sha-256": "ebab6d628cec97c170904986fda475e31a2a48040d8a492cf891afa68ca4872b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/flann/random.h"
+          },
+          "hashes": {
+            "sha-256": "48e613ab8046d1f0adfc54a05433e6ef555cb2b4259c69638a2864fbf2c929d4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/flann/kdtree_single_index.h"
+          },
+          "hashes": {
+            "sha-256": "eac6d1789a62c8b7e43d4f05d57ef04751e153fd648a200717d970d811881cab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/flann/kmeans_index.h"
+          },
+          "hashes": {
+            "sha-256": "51faef882cfd60c900c8bcff4eca93e7b978568fcfd2a708f0d4743c69c1c733"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/flann/logger.h"
+          },
+          "hashes": {
+            "sha-256": "07c7e1024fb569c327e77f0c95507b42d46fb464ff765c796bd36ac61285eac3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/flann/composite_index.h"
+          },
+          "hashes": {
+            "sha-256": "a88880457ab393be395a9ca8df39f040d9c1e89b917b658275a817de21ad8ec5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/flann/linear_index.h"
+          },
+          "hashes": {
+            "sha-256": "c7eb336c6e6135b6bc5285a8e8a21fde2f9642fb6a61d9a5263d2c202124ed17"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/flann/hierarchical_clustering_index.h"
+          },
+          "hashes": {
+            "sha-256": "a9a17c9c658da96d7cde411c4be255028451add15384e4ffa51b2c14b12096b2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/flann/lsh_index.h"
+          },
+          "hashes": {
+            "sha-256": "4ca69de52d128f68a370044c7283805713a592b1fb0eff0826d3714d8adbfc70"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/flann/autotuned_index.h"
+          },
+          "hashes": {
+            "sha-256": "b362c9836599fd561f4e7aa3f31fb076997b832f96d3d31f6e6819b8b0f7dd3d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/flann/ground_truth.h"
+          },
+          "hashes": {
+            "sha-256": "5636a84a20e779b97d3cedc37d3eca6f32c1d456c8e8a534e6f12a08510ee8bb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/flann/index_testing.h"
+          },
+          "hashes": {
+            "sha-256": "3fd061ce7ab4aba8c6c851a27266c5ed724236843720d702fad2b1b4b3e690d5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/flann/timer.h"
+          },
+          "hashes": {
+            "sha-256": "3521431be8f7b1f9064077be93e70f942c14565e6b002edf778219aad206cc18"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/flann/sampling.h"
+          },
+          "hashes": {
+            "sha-256": "aa4c77b910328536f0bbf5137d48248163f8520dc708c1aa696d748de472326c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/highgui.hpp"
+          },
+          "hashes": {
+            "sha-256": "0e288327ac9ea18694001dfd470ad2cdbf2e05725ae462d107d3509756bc4081"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/imgcodecs.hpp"
+          },
+          "hashes": {
+            "sha-256": "2c3f22538e6896296f345603cd8f95a917961d754ba140fe50f268054f824b5a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/videoio.hpp"
+          },
+          "hashes": {
+            "sha-256": "f39b868168ddaa1aa067322e911bda1d2333d1527e974869b83784d1d65c52be"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/imgproc/segmentation.hpp"
+          },
+          "hashes": {
+            "sha-256": "cf124e4547bb9fdbe3ce8a1ae6d45d74ffb1c65985a02177fa440f57689533f4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/ml.hpp"
+          },
+          "hashes": {
+            "sha-256": "5098960727be18259d2bdde7c99595f7427bdc5a3e155948aaa5abe56ea3f3de"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/ml/ml.inl.hpp"
+          },
+          "hashes": {
+            "sha-256": "09eec0d780367bf9f468872c7726713492b2768ff05aed53eec31176e2cf6920"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/video.hpp"
+          },
+          "hashes": {
+            "sha-256": "34bdb4e1fa6011fe88098d82cb79bfb4e4977b522de267e345108521650bb984"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/video/tracking.hpp"
+          },
+          "hashes": {
+            "sha-256": "e2e663efb188a7199ce4be55284bc57e7c161139056672e2a120620d7aecaad2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/build/bin/include/opencv2/video/background_segm.hpp"
+          },
+          "hashes": {
+            "sha-256": "d7e52545ca5f968b1e4711054b50e32af92557d3aca8876e806482443c104a16"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/include/nn.h"
+          },
+          "hashes": {
+            "sha-256": "e17210607f94d0434fc2bb770c22bc95dca7aa8d5f20ae82ddc0864d0ee5eb24"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/include/intel_imgproc.h"
+          },
+          "hashes": {
+            "sha-256": "82691b7f3ae30c7a39dc576c1c5abc772efaf0ceb508c7b2c786c3907b4e2c7c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/program2/clibtool/include/convnet.h"
+          },
+          "hashes": {
+            "sha-256": "b292b8452612fc63345ad08ff15c77837c2e2384655dddb84a306679c1d32d63"
+          }
+        }
+      ]
+    }
+  ]
+}
